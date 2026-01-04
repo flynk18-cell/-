@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人履歷 - 江武義</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50; /* Màu xám đậm */
+            --secondary-color: #95a5a6; /* Màu xám nhạt */
+            --accent-color: #34495e; /* Màu xám xanh chuyên nghiệp */
+            --bg-color: #f4f4f4;
+            --white: #ffffff;
+            --text-dark: #333333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft JhengHei", "微軟正黑體", sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .cv-container {
+            width: 850px;
+            background: var(--white);
+            display: flex;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        /* Sidebar - Left */
+        .sidebar {
+            width: 35%;
+            background-color: var(--accent-color);
+            color: #ecf0f1;
+            padding: 40px 25px;
+        }
+
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: #bdc3c7;
+            margin: 0 auto 30px;
+            border: 4px solid var(--secondary-color);
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .profile-photo i {
+            font-size: 70px;
+            color: var(--accent-color);
+        }
+
+        .sidebar-section {
+            margin-bottom: 30px;
+        }
+
+        .sidebar-title {
+            font-size: 1.1rem;
+            border-bottom: 1px solid var(--secondary-color);
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .contact-info div {
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-info i {
+            margin-right: 12px;
+            width: 15px;
+            color: var(--secondary-color);
+        }
+
+        .skill-item {
+            margin-bottom: 15px;
+        }
+
+        .skill-label {
+            font-size: 0.85rem;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .progress-bar {
+            background: #465a6d;
+            height: 6px;
+            border-radius: 3px;
+        }
+
+        .progress-fill {
+            background: var(--secondary-color);
+            height: 100%;
+            border-radius: 3px;
+        }
+
+        /* Main Content - Right */
+        .main-content {
+            width: 65%;
+            padding: 50px 40px;
+            color: var(--text-dark);
+        }
+
+        .header {
+            border-bottom: 2px solid var(--bg-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+
+        .header h2 {
+            font-size: 1.2rem;
+            color: var(--secondary-color);
+            font-weight: 400;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .section-title::before {
+            content: "";
+            width: 4px;
+            height: 20px;
+            background: var(--accent-color);
+            margin-right: 10px;
+        }
+
+        .content-block {
+            margin-bottom: 20px;
+        }
+
+        .content-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+
+        .content-header h3 {
+            font-size: 1.1rem;
+            color: var(--primary-color);
+        }
+
+        .date-text {
+            font-size: 0.9rem;
+            color: var(--secondary-color);
+        }
+
+        .description {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #555;
+            text-align: justify;
+        }
+
+        .bullet-list {
+            padding-left: 20px;
+            margin-top: 8px;
+        }
+
+        .bullet-list li {
+            font-size: 0.95rem;
+            margin-bottom: 5px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<div class="cv-container">
+    <aside class="sidebar">
+        <div class="profile-photo">
+            <img src="https://mail.google.com/mail/u/0?ui=2&ik=bcc41dfe7b&attid=0.1&permmsgid=msg-a:r-2523198669293245275&th=19b88bb4e35f4211&view=fimg&fur=ip&permmsgid=msg-a:r-2523198669293245275&sz=s0-l75-ft&attbid=ANGjdJ8fHrmW_VQ-AaLT9DCNC0867-QS2brYOH0rH4_PlAdITFgfza6DTRw9LT3kviXB528Rj1wXxePuc5YnRqvhyvcBaEMt4Sr54MkUcFRfnaXAACT_vhxMd8gi5Fk&disp=emb&realattid=ii_19b88bb43bb5ff922f71&zw" alt="" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+
+        <div class="sidebar-section">
+            <h3 class="sidebar-title">聯絡資訊</h3>
+            <div class="contact-info">
+                <div><i class="fas fa-phone"></i> 0903-407-479</div>
+                <div><i class="fas fa-envelope"></i> giangvonghia@gmail.com</div>
+            </div>
+        </div>
+
+        <div class="sidebar-section">
+            <h3 class="sidebar-title">語言能力</h3>
+            <div class="skill-item">
+                <span class="skill-label">越南語 (母語)</span>
+                <div class="progress-bar"><div class="progress-fill" style="width: 100%"></div></div>
+            </div>
+            <div class="skill-item">
+                <span class="skill-label">中文 (精通 / TOCFL C1)</span>
+                <div class="progress-bar"><div class="progress-fill" style="width: 95%"></div></div>
+            </div>
+            <div class="skill-item">
+                <span class="skill-label">英文 (基礎會話)</span>
+                <div class="progress-bar"><div class="progress-fill" style="width: 45%"></div></div>
+            </div>
+        </div>
+
+        <div class="sidebar-section">
+            <h3 class="sidebar-title">專業技能</h3>
+            <div class="skill-item">
+                <span class="skill-label">Excel / Word / Photoshop</span>
+                <div class="progress-bar"><div class="progress-fill" style="width: 90%"></div></div>
+            </div>
+            <div class="skill-item">
+                <span class="skill-label">AI 工具實務應用</span>
+                <div class="progress-bar"><div class="progress-fill" style="width: 85%"></div></div>
+            </div>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="header">
+            <h1>江武義</h1>
+            <h2>Giang Võ Nghĩa</h2>
+        </header>
+
+        <section class="section">
+            <h3 class="section-title">關於我</h3>
+            <p class="description">
+                本人畢業於國立勤益科技大學資訊工程系 。具備電腦科學專業背景，並擁有精通的中文能力（聽、說、讀、寫）及華語文能力測驗 C1 證照 
+                具備高度紀律性、富有創造力，且樂於主動學習新知。擅長操作 Excel、Word、Photoshop 及各類 AI 工具以提升工作效率 
+            </p>
+        </section>
+
+        <section class="section">
+            <h3 class="section-title">工作經驗</h3>
+            <div class="content-block">
+                <div class="content-header">
+                    <h3>倉管專員 | 台灣公司</h3>
+                    <span class="date-text">資歷：6 年</span>
+                </div>
+                <p class="description">
+                    對公司整體營運流程有深入了解，工作內容涵蓋：
+                </p>
+                <ul class="bullet-list">
+                    <li>接收與處理客戶訂單 。</li>
+                    <li>管理內部作業流程 。</li>
+                    <li>掌控最終出貨環節及各項相關標準 。</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h3 class="section-title">教育背景</h3>
+            <div class="content-block">
+                <div class="content-header">
+                    <h3>國立勤益科技大學</h3>
+                    <span class="date-text">畢業</span>
+                </div>
+                <p class="description">資訊工程系 </p>
+                <p class="description">華語文測驗：C1 </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h3 class="section-title">求職動機</h3>
+            <p class="description">
+                本人期望能透過此份工作進一步累積並學習進出口貿易與商業運作相關經驗，持續提升自身專業能力 。
+            </p>
+        </section>
+    </main>
+</div>
+
+</body>
+</html>
